@@ -21,6 +21,7 @@ namespace Win.Bodega
 
             _transacciones = new TransaccionesBL();
             //listaProductosBindingSource.DataSource = _productos.ObtenerProductos();
+            listaTransaccionesBindingSource.DataSource = _transacciones.ObtenerTransacciones();
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -105,10 +105,10 @@
             // 
             // listaTransaccionesBindingNavigator
             // 
-            this.listaTransaccionesBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.listaTransaccionesBindingNavigator.AddNewItem = null;
             this.listaTransaccionesBindingNavigator.BindingSource = this.listaTransaccionesBindingSource;
             this.listaTransaccionesBindingNavigator.CountItem = this.bindingNavigatorCountItem;
-            this.listaTransaccionesBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
+            this.listaTransaccionesBindingNavigator.DeleteItem = null;
             this.listaTransaccionesBindingNavigator.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
